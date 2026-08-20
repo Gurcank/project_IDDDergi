@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# scripts/build-magazine-assets.ts geçici çalışma klasörü — script hata
+# durumunda debug için silmiyor, yanlışlıkla commit edilmesin
+/.magazine-tmp
